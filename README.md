@@ -105,15 +105,43 @@ MaterialEditText： https://github.com/rengwuxian/MaterialEditText
 
 仿MD的输入框效果，比support库中自带控件要略全面些，可向前兼容到2.1。
 
+android-styled-dialogs： https://github.com/avast/android-styled-dialogs
+
+基于DialogFragment的MD对话框库，可兼容老版本系统。
+
+Crouton： https://github.com/keyboardsurfer/Crouton
+
+可显示一些华丽的toast。
+
+RippleView： https://github.com/siriscac/RippleView
+
+Ripple效果的前向兼容控件。
+
+Button Menu： https://github.com/tuenti/ButtonMenu
+
+一个按钮工具条的实现。
+
+android-morphing-button: https://github.com/dmytrodanylyk/android-morphing-button
+
+点击后可变形为进度条的按钮控件，效果很赞。
+
+AndroidSlidingUpPanel： https://github.com/umano/AndroidSlidingUpPanel
+
+可拖动展开/关闭的一个浮动面板控件。
+
+TapBarMenu： https://github.com/michaldrabik/TapBarMenu
+
+点击展开/收起的菜单按钮实现。
+
+EasyAndroidAnimations： https://github.com/2359media/EasyAndroidAnimations
+
+一些动画效果的集合，需要时可作为动画算法实现的参考。
+
 ### 有用的库
 
-Scissors： https://github.com/lyft/scissors
+okhttp： https://github.com/square/okhttp
 
-一个图片剪裁库。
-
-SimpleCropView： https://github.com/IsseiAoki/SimpleCropView
-
-另一个图片剪裁库。
+Square出品的HTTP请求基础库，其代码已经被用在了Android系统的UrlConnection实现上。支持SPDY。
 
 android-job： https://github.com/evernote/android-job
 
@@ -140,6 +168,10 @@ Phrase： https://github.com/square/phrase
 
 资源模板，可通过定义占位符的方式进行文本替换。
 
+EventBus： https://github.com/greenrobot/EventBus
+
+很好用的一个Event Bus库，性能也优于基于反射的Dagger。
+
 Dagger 2： https://github.com/google/dagger
 
 Google从Square接手进行实现的依赖注入库。Dagger 2不再使用反射，性能上应优于1。
@@ -151,6 +183,18 @@ LeakCanary： https://github.com/square/leakcanary
 Fresco： https://github.com/facebook/fresco
 
 Facebook出品的图片加载库，除jpeg、png外还支持webp、gif。使用了一些黑科技以减少系统对图像内容所占内存的回收。
+
+Android-Universal-Image-Loader： https://github.com/nostra13/Android-Universal-Image-Loader
+
+图片加载库。
+
+picasso： https://github.com/square/picasso
+
+Square出品的图片加载库。
+
+Glide： https://github.com/bumptech/glide
+
+也是一个图片加载库。支持视频和GIF。
 
 LoganSquare： https://github.com/bluelinelabs/LoganSquare
 
@@ -168,6 +212,14 @@ libsuperuser： https://github.com/Chainfire/libsuperuser
 
 Root用。
 
+Scissors： https://github.com/lyft/scissors
+
+一个图片剪裁库。
+
+SimpleCropView： https://github.com/IsseiAoki/SimpleCropView
+
+另一个图片剪裁库。
+
 ### 动态加载、热修复相关
 android-dynamical-loading： https://github.com/kaedea/android-dynamical-loading
 
@@ -184,6 +236,10 @@ Dexposed： https://github.com/alibaba/dexposed
 NuWa（女娲）： https://github.com/jasonross/Nuwa
 
 一个热修复的纯Java实现，原理是利用了ClassLoader加载dex的工作流程。
+
+AndFix： https://github.com/alibaba/AndFix
+
+阿里出品的另一个热修复框架，通过“方法替换”实现热修复。Dalvik和ART分别有不同的Hack方式。
 
 AndroidChangeSkin： https://github.com/hongyangAndroid/AndroidChangeSkin
 
@@ -221,10 +277,17 @@ MultiChannelPackageTool： https://github.com/seven456/MultiChannelPackageTool
 
 一个多渠道打包工具，利用了zip文件格式的特点，做到了无需重压缩/解压/签名等。还是很有意思的。
 
+gradle-packer-plugin: https://github.com/mcxiaoke/gradle-packer-plugin
+
+一个渠道打包工具。
+
 vectalign： https://github.com/bonnyfone/vectalign
 
 可以用两个VectorDrawable生产两者过渡的路径（类似Material Design的那个“菜单<->返回”）的工具。
 
+psync： https://github.com/Flipboard/psync
+
+将xml定义的Preference自动转换为Java类，便于管理其对应的值。还支持转为Rx对象以便……你懂的。
 
 ### App应用实例
 
@@ -244,5 +307,50 @@ Universal Music Player： https://github.com/googlesamples/android-UniversalMusi
 
 Google官方出品的展示MD的一个音乐播放器应用。
 
-## 2、JavaScript
-//TODO
+iosched： https://github.com/google/iosched
+
+Google I/O 2015官方App。
+
+Rainville： https://github.com/feelinglucky/Rainville
+
+聆雨，一个白噪音的App，很小清新。
+
+## 2、iOS
+
+trip-to-iOS： https://github.com/Aufree/trip-to-iOS
+
+iOS相关资源集合。
+
+the-swift-programming-language-in-chinese： https://github.com/numbbbbb/the-swift-programming-language-in-chinese
+
+《Swift语言》中文版。
+
+Neon： https://github.com/mamaral/Neon
+
+一个Swift的UI布局框架。
+
+wax： https://github.com/alibaba/wax
+
+用Lua写iOS应用的框架。
+
+## 3、JavaScript
+
+### React
+Facebook推出的一套虚拟DOM框架，方便UI的展示。网址： http://facebook.github.io/react/
+
+React-Native： https://github.com/facebook/react-native
+
+使用React写iOS/Android应用。
+
+ZhiHuDaily-React-Native： https://github.com/race604/ZhiHuDaily-React-Native
+
+一个React-Native实例，使用了知乎日报的API。
+
+### Vue.js
+一个不大但蛮精干的MVVM框架，用起来很简单。 https://github.com/vuejs/vue
+
+### 其他
+
+bliss： https://github.com/LeaVerou/bliss
+
+Heavenly JavaScript。
