@@ -278,8 +278,9 @@ MultiChannelPackageTool： https://github.com/seven456/MultiChannelPackageTool
 一个多渠道打包工具，利用了zip文件格式的特点，做到了无需重压缩/解压/签名等。还是很有意思的。
 
 gradle-packer-plugin: https://github.com/mcxiaoke/gradle-packer-plugin
+packer-ng-plugin: https://github.com/mcxiaoke/packer-ng-plugin
 
-一个渠道打包工具。
+同一个作者的两版渠道打包工具。第一版使用了传统的gradle product flavors方式实现，第二版则采用了同MultiChannelPackageTool的原理。
 
 vectalign： https://github.com/bonnyfone/vectalign
 
