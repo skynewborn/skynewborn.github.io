@@ -17,6 +17,10 @@
 
 动画展示文本的库。
 
+**HTextView**： https://github.com/hanks-zyh/HTextView
+
+一个TextView的扩展，可以显示几种很炫的文字切换效果。
+
 **Material Scrolling**： https://github.com/satorufujiwara/material-scrolling
 
 实现Material Design中那种带头图Parallax滚动、ToolBar自动隐藏/显示的效果。
@@ -136,6 +140,10 @@ Ripple效果的前向兼容控件。
 **EasyAndroidAnimations**： https://github.com/2359media/EasyAndroidAnimations
 
 一些动画效果的集合，需要时可作为动画算法实现的参考。
+
+**ViewAnimator**： https://github.com/florent37/ViewAnimator
+
+Animator动画框架的一个封装，可以方便的使用链式调用组合各种动画，实现最终效果。
 
 **Knife**： https://github.com/mthli/Knife
 
