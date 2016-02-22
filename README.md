@@ -192,6 +192,10 @@ Google从Square接手进行实现的依赖注入库。Dagger 2不再使用反射
 
 内存泄露检测好帮手，用上就爱不释手。
 
+**BlockCanary**： https://github.com/moduth/blockcanary
+
+阿里工程师开源的UI卡顿检测工具。
+
 **Fresco**： https://github.com/facebook/fresco
 
 Facebook出品的图片加载库，除jpeg、png外还支持webp、gif。使用了一些黑科技以减少系统对图像内容所占内存的回收。
