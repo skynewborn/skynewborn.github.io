@@ -308,6 +308,14 @@ Rx方式操作SQLite数据库。
 
 将xml定义的Preference自动转换为Java类，便于管理其对应的值。还支持转为Rx对象以便……你懂的。
 
+**ClassyShark**： https://github.com/google/android-classyshark
+
+Google开源的一个APK信息反编译查看工具，查看一些简单的信息比做一遍反编译要方便。
+
+**MaterialColdStart**： https://github.com/DreaminginCodeZH/MaterialColdStart
+
+一个用于制作MD风格启动背景图的工具。其优化启动速度的思路很值得借鉴：先利用一张和应用布局相同的背景作为启动Activity的背景，从而在Application创建到Activity.onCreate之间的时间显示，给用户一种很快的感觉，然后在Activity onCreate之前将其主题修改为其正常的纯色背景主题，综合达到了加速冷启动速度的效果（体验上，实际速度并无优化）。
+
 ### App应用实例
 
 **WeChatLuckyMoney**： https://github.com/geeeeeeeeek/WeChatLuckyMoney
@@ -333,6 +341,10 @@ Google I/O 2015官方App。
 **Rainville**： https://github.com/feelinglucky/Rainville
 
 聆雨，一个白噪音的App，很小清新。
+
+**Douya**： https://github.com/DreaminginCodeZH/Douya
+
+豆瓣第三方客户端，MD风格，其中用到的一些工具库值得参考。
 
 ## 2、iOS
 
